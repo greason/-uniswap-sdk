@@ -416,7 +416,6 @@ var Token = /*#__PURE__*/function (_Currency) {
   ;
 
   _proto.sortsBefore = function sortsBefore(other) {
-    console.log("greason sortsBefore sdk.cjs.development.js")
     !(this.chainId === other.chainId) ?  invariant(false, 'CHAIN_IDS')  : void 0;
     // !(this.address !== other.address) ?  invariant(false, 'ADDRESSES')  : void 0;
     return this.address.toLowerCase() <= other.address.toLowerCase();

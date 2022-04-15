@@ -416,7 +416,6 @@ var Token = /*#__PURE__*/function (_Currency) {
   ;
 
   _proto.sortsBefore = function sortsBefore(other) {
-    console.log("greason sortsBefore sdk.esm.js")
     !(this.chainId === other.chainId) ? process.env.NODE_ENV !== "production" ? invariant(false, 'CHAIN_IDS') : invariant(false) : void 0;
     // !(this.address !== other.address) ? process.env.NODE_ENV !== "production" ? invariant(false, 'ADDRESSES') : invariant(false) : void 0;
     return this.address.toLowerCase() < other.address.toLowerCase();
